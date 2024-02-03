@@ -1,0 +1,1076 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*navbar*/
+
+.navBar{
+    height: 13vh;
+    background-color: rgb(34, 33, 33);
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.logo img{
+width: 35%;
+margin-left:120px;
+}
+.navLinks{
+    display: flex;
+    justify-content: space-around;
+    margin-left:50px;
+}
+.navLinks a{
+    text-decoration: none; 
+    color: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+    font-style: bold;
+    padding: 15px;
+}
+.navLinks li{
+    list-style: none;
+}
+.navBar button{
+    background-color: transparent;
+    border: 1px solid steelblue;
+    height:30px;
+    width: 80px; 
+    border-radius: 10px;
+}
+.navBar button a{
+    color:steelblue;   
+    text-decoration: none;
+}
+
+.navBar button:hover{
+    background-color:steelblue; 
+    .navBar .button,a{
+        color: whitesmoke;
+    } 
+}
+
+.number{
+    position: absolute;
+    margin-left:1200px;
+}
+
+.number h3 a{
+    color: white;
+    text-decoration: none;
+}
+.number p{
+    color: steelblue;
+}
+
+/*nabvar SubLink */
+
+.AboutSublink{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top:80px;
+    width: auto;
+    background-color: rgb(247, 245, 245);
+    opacity: 0;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.AboutSublink a{
+    color: black;
+}
+.AboutSublink li{
+    padding:20px;
+    border-radius: 10px;
+}
+
+.CodingSublink{
+    position: absolute;
+    top:80px;
+    flex-direction: column;
+    background-color: rgb(247, 245, 245);
+    display:flex;
+    width:450px;
+    opacity: 0;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.CodingSublink a{
+    color: black;
+}
+.CodingSublink li{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.CompetitionSublink{
+    position: absolute;
+    flex-direction: column;
+    top: 80px;
+    width: auto;
+    background-color: rgb(247, 245, 245);
+    opacity: 0;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.CompetitionSublink li{
+    padding: 20px;
+    border-radius: 10px;
+}
+.CompetitionSublink a{
+    color: black;
+}
+
+.SchoolsSublink{
+    position: absolute;
+    flex-direction: column;
+    top:80px;
+    background-color: rgb(247, 245, 245);
+    width: auto;
+    opacity: 0;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.SchoolsSublink li{
+    padding: 20px;
+    border-radius: 10px;
+}
+.SchoolsSublink a{
+    color: black;
+}
+
+.ContactusSublink{
+    position: absolute;
+    top: 80px;
+    flex-direction: column;
+    width: auto;
+    background-color: rgb(247, 245, 245);
+    opacity: 0;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.ContactusSublink a{
+    color: black;
+}
+
+.ContactusSublink li{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.navLinks li:hover{
+
+    .AboutSublink{
+        opacity: 1;
+        visibility: visible;
+    }  
+
+    .CodingSublink{
+        opacity: 1;
+        visibility: visible;
+    } 
+
+    .CompetitionSublink{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .SchoolsSublink{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .ContactusSublink{
+        opacity: 1;
+        visibility: visible;
+    }
+
+}
+
+.AboutSublink li:hover{
+    background-color: whitesmoke;
+}
+ .CodingSublink li:hover{
+    background-color: whitesmoke;
+ }
+ .CompetitionSublink li:hover{
+    background-color: whitesmoke;
+ }
+ .ContactusSublink li:hover{
+    background-color: whitesmoke;
+ }
+ .SchoolsSublink li:hover{
+    background-color: whitesmoke;
+ }
+
+ /* heroSection */
+
+ .heroSection{
+    height: 300px;
+ }
+
+.heroImage{  
+    background-image: url(./Images/roimage/genius-coder-programme.jpg);
+    height:300px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.heroContent{
+    margin-top:-210px;
+    margin-left: 150px;
+}
+
+.heroContent h1{
+    padding:10px;
+    font-size:50px;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:400;
+}
+
+.heroContent h1::before{
+    content:"";
+    border-left: 3px solid steelblue;
+    margin-right:20px;
+    width: 25px;
+}
+
+.heroContent p{
+    margin-top:15;
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*-----*/
+
+.heroDetails{
+    text-align: center;
+    padding: 50px;
+}
+.heroDetails p{
+    font-size:35px;
+    color: rgb(28, 23, 41);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heroDetails1 {
+    width:38%;
+    margin-left:150px;
+    
+}
+
+.heroDetails1 p{
+    padding: 13px;
+    font-size:17px;
+    color: grey;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.deImage img{
+    object-position: center center;
+    height: 300px;
+    width: 500px;
+    margin-left:20px;
+    margin-top: 10px;
+    border-radius:25px;
+}
+
+/*...table details..*/
+
+.tableContainer{
+    width: 35%;
+    margin-left:700px;
+    position: absolute;
+    top: 550px;
+    height: auto;
+}
+
+.tableDetails table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-color: grey;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+}
+.tableDetails location,a{
+    text-decoration: none;
+    color:steelblue;
+}
+
+.tableDetails table{
+    width: 100%;
+    color: grey;
+}
+.tableDetails th{
+    width: 40%;
+    color: black;
+}
+
+/* table under button details*/
+
+.buttonde button{
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    border: 2px solid steelblue;
+    border-radius: 10px;
+}
+
+.buttonde button,a{
+    font-weight: 600;
+}
+.buttonde button:hover{
+    background-color:steelblue;
+    .buttonde button,a{
+        color: whitesmoke;
+    }
+}
+
+/* heroDeatils2 */
+
+.heroDetails2{
+    width:65%;
+    margin-top: 200px;
+    text-align: center;
+    margin-left: 250px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.details h2{
+    font-size:40px;
+    display: flex;
+    justify-content: center;
+    padding:15px;
+    font-weight: lighter;
+}
+
+.details p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+    font-size:16px; 
+    padding-bottom: 15px;
+    color: grey;
+}
+
+/*...CardGrid ....*/
+
+.mainSection{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.gridContainer{
+    width: 100%;
+    padding:50px 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    gap: 2rem;
+}
+
+.card1{
+    width:100%;
+    height: 100%;
+    box-shadow: 2px 3px 3px gray;
+    border-radius: 5px;
+    background-color:rgb(37, 150, 190);
+    color: whitesmoke;
+    text-align: center;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    padding: 70px 0 70px 0;
+}
+
+.cardHeader1 i{
+
+    justify-content: center;
+    border-radius: 50px;
+    padding: 22px 20px;
+    background-color: #80cadc;
+    font-size: 25px;
+}
+.cardHeader1 h3{
+
+    color: #ffffff;
+    padding: 20px 0 45px 0;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    
+}
+
+.body1{
+
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    align-items: center;
+}
+
+
+
+.left li{
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 3;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.right li{
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 3;
+    font-family: 'Open Sans', sans-serif;
+}
+ 
+.left i{
+    padding: 10px 10px;
+    background-color: #80cadc;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.right i{
+    padding: 10px 10px;
+    background-color: #80cadc;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.cardBody i{
+    margin-bottom:5px;
+    margin-top:15px;
+    font-size:25px;
+    color: steelblue;
+}
+
+.card2{
+    width: 100%;
+    box-shadow: 2px 3px 3px gray;
+    border-radius: 5px;
+    background-color:rgba(238,184,52,255);
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 70px 0 70px 0;
+}
+
+.cardHeader2 i{
+    font-size: 25px;
+    background-color: #f7dc9a;
+    padding: 24px 20px;
+    border-radius: 50px;  
+}
+
+.cardHeader2 h3{
+    padding: 20px 0 45px 0;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+.body2{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    align-items: center;
+}
+.body2 i{
+    background-color: #f7dc9a;
+}
+
+.card3{
+    width: 100%;
+    box-shadow: 2px 3px 3px gray;
+    border-radius: 5px;
+    background-color: rgba(34,34,34,255);
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 70px 0 70px 0;
+}
+
+.cardHeader3 i{
+    font-size: 25px;
+    padding: 24px 20px;
+    background-color:#919191;
+    border-radius: 50px;
+}
+
+.cardHeader3 h3{
+    font-size: 25px;
+    padding: 20px 0 45px 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+.body3{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    align-items: center;
+}
+
+.body3 i{
+    background-color:#919191;
+}
+
+/*...image Section ...*/
+
+.section{
+    height:90vh;
+    background-color: aquamarine;
+}
+
+.imageSection{
+    background-image: url(./Images/roimage/web-development-banner.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    object-fit:contain;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgDetails p{
+    font-size:50px;
+    width: 60%;
+    margin-left:300px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color:cornflowerblue;
+}
+.imgDetails span{
+    color:goldenrod;
+}
+.imgDetails1 p{
+    width: 60%;
+    font-size: 25px;
+    margin-left: 290px;
+    color: whitesmoke;
+}
+
+/*...underimagedetails...*/
+.underImageContainer{
+    width: 100%;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.underImagede{
+    width:50%;
+    padding: 50px 10px;
+    text-align: center;
+}
+.underImagede p{
+    font-size:35px;
+    padding-bottom: 10px;
+}
+.underImagede p1{
+    font-size: 25px;
+}
+.underImagede h6{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: grey;
+}
+
+/*..BUTTON ..*/
+
+.underImagebutton{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.underImagebutton button{
+    width:50%;
+    padding:15px;
+    border-color: steelblue;
+}
+.underImagebutton button:hover{
+    background-color: steelblue;
+    .underImagebutton ,button,a{
+        color:whitesmoke;
+    }
+}
+
+/*....grid...*/
+
+.gridBackground{
+    height: 150vh;
+    background-color:rgba(23,43,77,255);
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+.gridDetails{
+    width: 70%;
+    text-align: center;
+    padding: 50px;
+    height: 60vh;
+    position: relative;
+}
+
+.gridDetails p{
+    font-size:50px;
+    color: white;
+}
+.gridDetails p1{
+    font-size: 50px;
+    color: orange;
+}
+.gridDetails p2{
+    font-size: 25px;
+    margin-top: 25px;
+    display: flex;
+    color:wheat;
+    padding-bottom: 25px;
+}
+.gridDetails p3{
+    font-size: 20px;
+    color:wheat;
+}
+
+.gridCardcontainer{
+    width: 100%;
+    position: absolute;
+    top: 450px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.cardDetails{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 2rem;
+    padding: 50px 25px;
+}
+.underCard{
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    box-shadow: 2px 3px 3px gray;
+    border-radius: 5px 5px 0 0;
+}
+.cardHeader img{
+    width: 100%;
+    height: 25vh;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius:5px 5px 0 0;
+    padding:5px;
+}
+.cardBody1 p{
+    text-align: center;
+    padding:15px;
+}
+
+/*....aboveFooter...*/
+
+.aboveFootercontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboveFooterdetails{
+    text-align: center;
+    width: 60%;
+    padding: 50px 25px;
+}
+.aboveFooterdetails p{
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aboveFooterdetails p1{
+    color: gray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aboveFooterdetails p2,p3,p5{
+    color: gray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aboveFooterdetails p4{
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+}
+
+.aboveFooterimg ,.aboveFooterimg1, .aboveFooterimg2, img{
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+}
+
+.aboveFooterbutton1{
+    margin-bottom: 15px;
+    border-radius: 5px;
+   border:1px solid black;
+   
+}
+.aboveFooterbutton1 a{
+    text-decoration: none;
+    color:black;
+    
+}
+.aboveFooterbutton1:hover{
+    background-color: rgb(9, 9, 48);
+    .aboveFooterbutton1 ,a{
+        color: white;
+    }
+}
+.aboveFooterbutton2{
+    border-radius: 5px;
+    border:1px solid steelblue;
+ }
+
+ .aboveFooterbutton2:hover{
+    background-color: steelblue;
+    .aboveFooterbutton2 ,a{
+        color: white;
+    }
+ }
+
+.aboveFooterbutton1, .aboveFooterbutton2{
+    width: 100%;
+    padding: 10px;
+}
+
+/*...footer container...*/
+
+.footerContainer{
+    width: 100%;
+    background-color:rgba(14, 11, 11, 0.979);
+    display: flex;
+    justify-content: center;
+}
+.part1{
+    width: 30%;
+    padding-bottom: 25px;
+}
+.footerlogo img{
+    width: 35%;
+    object-fit: cover;
+    padding-top: 50px;
+    margin-left: 100px;
+    padding-bottom: 30px;
+}
+.part1 p{
+    margin-left: 100px;
+    color: rgb(53, 52, 52);
+
+}
+.part2{
+    width: 30%;
+    
+    padding-top: 50px;
+}
+.part2 h2{
+    margin-left: 100px;
+    color: rgb(53, 52, 52);
+}
+.part2 p{
+    margin-left: 100px;
+    
+}
+.part3{
+    width: 30%;
+    
+    padding-top: 50px;
+    position: relative;
+}
+.part3 p{
+    margin-left: 100px;
+    font-size: 22px;
+}
+.part3 p4{
+    margin-left: 100px;
+    font-size: 50px;
+    background-color: white;
+}
+
+.part3 p1,p2{
+    margin-left: 100px;
+    font-size: 22px;
+}
+.part3 p2{
+    font-size: 50px;
+}
+.part3 button{
+   height: 25px; 
+   margin-left: 10px;
+   width: 120px;
+   margin-top: 20px;
+   position: absolute;
+   border: 2px solid green;
+}
+.part3 button a{
+    text-decoration: none;
+    color: green;
+}
+.part3 p,p1{
+    color: rgb(68, 56, 56);
+}
+
+.part3 button:hover{
+    background-color: green;
+    .part3 button ,a{
+        color: white;
+    }
+}
+
+/*..Responsive....*/
+
+#check{
+    display: none;
+}
+.checkbutton{
+    margin-left: 180px;
+    padding: 5px;
+    background-color: aliceblue;
+    display: none;
+    border: 2px solid whitesmoke;
+}
+
+@media (max-width:576px) {
+
+    /*..navbar..*/
+
+
+    .navLinks{
+
+        background-image: url(./Images/roimage/roboto-coding-academy-logo.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        flex-direction: column;
+        top:20px;
+        height: 500%;
+        background-color:white;
+        width: 70%;
+        margin-left:10px;
+        padding-top:100px;
+        padding-bottom: 100px;
+        display: none;
+    }
+
+    .navLinks a{
+        color: black;
+    }
+
+    .navBar button{
+        position: absolute;
+        margin-top: 650px;
+        margin-left: 25px;
+        text-align: center;
+        display: none;
+    }
+    .logo img{
+        width: 25%;
+        margin-left: 25px;
+    }
+
+    .checkbutton{
+        display:block;
+    }
+    .number{
+        display: none;
+    }
+    #check:checked~.navLinks{
+        display: flex;
+    }
+
+    #check:checked~ button{
+        display: flex;
+    }
+
+/*hero section*/
+
+    .heroContent{
+        margin-left: 10px;
+        margin-top: -200px;
+    }
+    .heroContent h1{
+        color: #fff;
+        font-style: bold;
+    }
+    .heroDetails{
+        width: 90vh;
+        text-align: center;
+    }
+    .heroDetails p{
+        margin-left:-50px;
+        font-size:30px;
+    }
+
+    .heroDetails1{
+       width: 60vh;
+       
+    }
+    .heroDetails1 p{
+        margin-left: -140px;
+    }
+    .deImage img{
+        margin-left: -120px;
+    }
+
+    .tableContainer {
+        margin-left: 20px;
+        margin-top: 600px;
+        width: 90%; 
+    }
+
+    .heroDetails2{
+        margin-top: 720px;
+    }
+
+    .heroDetails2{
+        margin-left:5px;
+        width: 80vh;
+        text-align: start;
+    }
+    .heroDetails2 h2{
+        text-align:center;
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .heroDetails2 p{
+        margin-left: 20px;
+    }
+
+    /*...image section ...*/
+
+    .imageSection{
+        height:130vh;
+    }
+
+    .imgDetails  p{
+        margin-left: 40px;
+        width: 80%;
+    }
+    .imgDetails1 p{
+        margin-left:10px;
+        width: 80vh;
+        margin-right:10px;
+    }
+
+    .underImageContainer{
+        width: 100%;
+        margin-top:300px;
+    }
+
+    .underImagede {
+        width: 100%;
+    }
+    .underImagebutton button{
+        width: 100%;
+    }
+
+    /*....grid details ...*/
+
+    .gridBackground{
+        height: 690vh;
+    }
+
+    .gridDetails{
+        width: 100%;
+        height: 100vh;
+        
+    }
+
+    .gridDetails p,p2{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .gridDetails p3{
+        padding-top: 25px;
+        font-size: 25px;
+    }
+
+    .gridCardcontainer{
+        width: 100%;
+        margin-top: 120px;
+        
+    }
+
+    .underCard{
+        height:70vh;
+    }
+
+    .cardHeader img{
+        height:60vh;
+    }
+
+    /*...above footer details ..*/
+
+    .aboveFootercontainer{
+        width: 100%;
+    }
+    .aboveFooterdetails{
+        width: 100%;
+    }
+
+    .aboveFooterdetails p{
+        margin-left: -28px;
+        font-size: 29px;
+    }
+
+    .aboveFooterdetails p1,p2,p3,p5{
+        font-size: 20px;
+        color: gray;
+    }
+
+    .aboveFooterdetails p4{
+        font-size: 20px;
+        font-weight:500;
+    }
+
+    /*..footer..*/
+
+    .footerContainer{
+        display: block;
+        width: 100%;
+        height: 130vh;
+        position: relative;
+    }
+    .part1,.part2,.part3{
+        width: 100%;
+    }
+
+    .part3 p2{
+        position: absolute;
+        margin-left: 100px;
+    }
+    .part3 button{
+        margin-left: 150px;
+    }
+}
+
+
+
