@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gridContainer{
+    width: 100%;
+    background-color:cadetblue;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+}
+
+.card{
+    width: 25%;
+    background-color: white;
+    border-top:10px solid skyblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    margin-top: 225px;
+    margin-bottom: 225px;
+}
+
+.card h2{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.card p{
+    margin-top: 15PX;
+    margin-left: 30PX;
+}
+
+.logo img{
+    height: 80px;
+    margin-top: 60px;
+    margin-left: 220px;
+}
+
+@media (max-width: 767px){
+.card{
+    width: 80%;
+}
+}
